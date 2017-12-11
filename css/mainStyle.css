@@ -1,0 +1,89 @@
+
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+
+      .result{
+        /*border: 1px solid red;*/
+        height: 60px;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+      }
+
+      .result p{
+        /*border: 1px solid red;*/
+        margin: 10px 0px;
+        font-size:31px; 
+      }
+
+      .container{
+        width: 224px;
+        border: 1px solid red;
+      }
+
+      .number{
+        display: inline-block;
+        border: 1px solid #000000;
+        height: 50px;
+        width: 50px;
+        margin:2px 0px;
+        text-align: center;
+        border-radius: 25px; 
+      }
+
+      .number p{
+        /*border: 1px solid red;*/
+        line-height: 20px;
+        font-weight: bolder;
+      }
+      .number:hover{
+        background-color: springgreen;
+        cursor:pointer;
+        
+      }
+
+      .zero{
+        width: 106px;
+        
+      }
+
+      .enter{
+        height: 106px;
+        float: right;
+        margin: 2px;
+      }
+
+      .enter p{
+        line-height: 80px;
+      }
+
+      .plus{
+        height: 106px;
+        float: right;
+        margin: 2px;
+        
+      }
+
+      .plus p{
+        line-height: 80px;
+      }
+
+      #hiddenText{
+        height: 40px;
+        width: 220px;
+        font-size: 15px;
+        display: block;
+        /*border-bottom-right-radius: 15px;*/
+        /*background-color:#A59595;*/
+      }
+
+      #tempText{
+        height: 20px;
+        width: 220px;
+        font-size: 15px;
+        display: block;
+
+      }
+

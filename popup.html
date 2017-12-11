@@ -1,0 +1,96 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Caculator Online</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+
+
+  </head>
+  <body>
+      
+   <div class="container">
+      <!--a division to show the result of our Caculation-->
+       <div class="result">
+         <p></p>
+       </div>   
+
+      <!--This is a hidden area-->
+       <!--<p id="hiddenP" hidden></p>-->
+       <input type="text" name="text" id="tempText" disabled/>       
+       <input type="text" name="text" id="hiddenText" autofocus/>     
+       
+      <!--number keyboard-->
+      <div class="number clear">
+          <p>
+              <span>AC</span>
+          </p>
+      </div>
+      <div class="number divide">
+        <p>/</p>
+      </div>
+      <div class="number multiply">
+        <p>*</p>
+      </div>
+      <div class="number less">
+       <p>-</p>
+      </div>
+      <div class="number seven">
+        <p>7</p>
+      </div>
+      <div class="number eight">
+        <p>8</p>
+      </div>
+      <div class="number nine">
+        <p>9</p>
+      </div>
+      <div class="number plus">
+        <p>+</p>
+      </div>
+      <div class="number four">
+        <p>4</p>
+      </div>
+      <div class="number five">
+        <p>5</p>
+      </div>
+      <div class="number six">
+        <p>6</p>
+      </div>
+      <div class="number one">
+        <p>1</p>
+      </div>
+      <div class="number two">
+        <p>2</p>
+      </div>
+      <div class="number three">
+        <p>3</p>
+      </div>
+      <div class="number enter">
+        <p>Enter</p>
+      </div>
+      <div class="number zero">
+        <p>0</p>
+      </div>
+      <div class="number dot">
+        <p>.</p>
+      </div>
+
+    </div>
+    <script src="js/libs/jquery_min.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/caculate.js"></script>    
+  </body>
+</html>
+
