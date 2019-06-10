@@ -1,5 +1,5 @@
-### What's this?
+### 描述
 
-This is a google browser plugin project . It can do some simple caculations .  It is like this ,
+这是个谷歌浏览器插件，能够做简单的四则运算。大概这样
 
 ![MyGif ](https://github.com/zhangsanlzh/CaculatorJS-BC/blob/master/images/MyGif%20.gif)
